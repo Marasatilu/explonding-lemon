@@ -1,9 +1,34 @@
-h1{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
+
+
+.lemon-explosion-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: yellow;
+  font-size: 2rem;
+}
+
+
 .lemon-button-container {
+
+  border: solid 6px yellow;
+  border-radius: 20px;
+  max-width: 500px;
+  min-height: 150px;
+  padding: 20px;
+  text-align: center;
+  margin: 20% ;
+
+}
+
+
+.lemon-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +36,17 @@ h1{
   height: 100%;
 }
 
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(161, 237, 30);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  margin: 1rem;
+}
 
 .explosion-button {
   position: relative;
@@ -18,8 +54,8 @@ h1{
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  background-color: #f6810c;
-  color: white;
+  background-color: yellow;
+  color: black;
   cursor: pointer;
   
 

@@ -3,8 +3,9 @@ import ExplosionButton from './ExplosionButton';
 
 const App = () => {
   return (
-    <div>
-      <h1>Click the Button for an Explosion!</h1>
+    <div  className='lemon-button-container'>
+      <h1 className='lemon-explosion-title'>
+Click for an explosion of Murcian wisdom!</h1>
       <ExplosionButton />
     </div>
   );
