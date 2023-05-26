@@ -54,6 +54,9 @@ const ExplosionButton = () => {
           <span className="lemon-icon icon-1" />
           <span className="lemon-icon icon-2" />
           <span className="lemon-icon icon-3" />
+          <span className="lemon-icon icon-4" />
+          <span className="lemon-icon icon-5" />
+          <span className="lemon-icon icon-6" />
         </>
       )}
     </button>

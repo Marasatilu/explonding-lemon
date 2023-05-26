@@ -57,11 +57,11 @@ body {
   background-color: yellow;
   color: black;
   cursor: pointer;
-  
 
   &.explode {
     animation: explosion 0.7s forwards;
   }
+
 
   .lemon-icon {
     position: absolute;
@@ -71,13 +71,13 @@ body {
     background-size: cover;
 
     &.icon-1 {
-      top: 50%;
-      left: 30%;
+      top: 70%;
+      left: -20%;
       animation: blow 2s infinite alternate 0.1s;
     }
 
     &.icon-2 {
-      top: 60%;
+      top: -40%;
       left: 60%;
       animation: blow 2s infinite alternate 0.3s;
     }
@@ -86,6 +86,21 @@ body {
       top: 40%;
       left: 80%;
       animation: blow 2s infinite alternate 0.5s;
+    }
+    &.icon-4 {
+      top: -30%;
+      left: -10%;
+      animation: blow 2s infinite alternate 0.01s;
+    }
+    &.icon-5 {
+      top: 100%;
+      left: 30%;
+      animation: blow 2s infinite alternate 0.01s;
+    }
+    &.icon-6 {
+      top: -40%;
+      left: 20%;
+      animation: blow 2s infinite alternate 0.01s;
     }
   }
 
